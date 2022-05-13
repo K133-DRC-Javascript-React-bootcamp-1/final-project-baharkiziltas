@@ -9,32 +9,34 @@ import Slider from './components/Slider';
 function App() {
   return (
 
-    <div>
+    <>
       <div className='container-fluid'>
         <div className='row'>
           <Navbar>Navbar</Navbar>
         </div>
       </div>
 
-      <div className='container-fluid'>
+      <div className='container'>
         <div className='row'>
           <Slider>Slider</Slider>
         </div>
+      </div>
+
       
+        <div className='container-fluid'>
+          <div className='row'>
+            <div><Options>Options</Options></div>
+          </div>
+          </div>
 
-
-      <div className='row'>
-        <div><Options>Options</Options></div>
-      </div>
-      <div className='row'>
-        <div ><Products>Products</Products></div>
-      </div>
-      </div>
-
-    </div>
-
-
-
+          <div className='container'>
+            <div className='row'>
+              <div ><Products>Products</Products></div>
+            </div>
+          </div>
+        
+          </>
+    
 
 
 

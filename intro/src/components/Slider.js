@@ -6,7 +6,7 @@ export default function Slider() {
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img style={{height: "400px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTNFa9HFQcmJDexhAtXYcT_mFRgPQ40sP-g&usqp=CAU" class="d-block w-100" alt="..."/>
+      <img style={{height: "400px"}} src="https://i.idefix.com/pimages/Content/Uploads/LandingPage/2022-LP/idefix/oyuncak-kampanya-firsati/nisan/img1.png" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src="https://bukitapbenim.com/wp-content/uploads/2018/11/karim-ghantous-333364-unsplash-1024x680.jpg" class="d-block w-100" alt="..."/>

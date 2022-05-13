@@ -15,6 +15,8 @@ export default function Products() {
     return (
         <div>
 
+
+
             <div className='row'>
                 <div className='col-sm'>
                     <div className='card' style={mycardstyle}>
@@ -46,6 +48,12 @@ export default function Products() {
                     </div>
                 </div>
 
+                <div className='col-sm'>
+                    <div className='card'style={mycardstyle}>
+                        <img src='https://i.dr.com.tr/cache/600x600-0/originals/0000000433607-1.jpg' alt='' className='card-img'></img>
+                        <h5 className='card-title'>İnsancıklar</h5>
+                    </div>
+                </div>
                 <div className='col-sm'>
                     <div className='card'style={mycardstyle}>
                         <img src='https://i.dr.com.tr/cache/600x600-0/originals/0000000433607-1.jpg' alt='' className='card-img'></img>
