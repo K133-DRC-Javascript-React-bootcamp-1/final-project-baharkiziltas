@@ -24,7 +24,7 @@ export default function Product({ item }) {
         <div className="card" style={{width: "18rem"}} >
             
                 <div >
-                    <Link to={`/product/ ${item.id}`}>
+                    <Link to={`/product/${item.id}`}>
                         <img src={item.imageURL} className="card-img-top" alt="..." />
                     </Link>
                     <div className="card-body">
