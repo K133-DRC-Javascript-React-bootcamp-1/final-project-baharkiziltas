@@ -1,6 +1,9 @@
 .header{
     position: sticky;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
 }
 
 .formitems{
@@ -17,7 +20,7 @@
     right: 2%;
     color: crimson;
     border-radius:50%;
-    background: whitesmoke;
+    background: rgb(233, 218, 218);
     display: flex;
     align-items: center;
     cursor: pointer;
