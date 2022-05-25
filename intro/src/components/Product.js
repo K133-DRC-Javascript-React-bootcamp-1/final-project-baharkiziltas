@@ -30,7 +30,7 @@ export default function Product({ item }) {
                     <div className="card-body">
                         <h5 className="card-title">{item.title}</h5>
                         <p className="card-text">{item.price}tl</p>
-                        <button onClick={() => addtobasket(books, findBasketItem)} className="btn btn-primary">sepete ekle</button>
+                        <button onClick={() => addtobasket(item, findBasketItem)} className="btn btn-primary">sepete ekle</button>
                     </div>
                 </div>
         </div>
