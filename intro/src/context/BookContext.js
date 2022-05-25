@@ -14,7 +14,9 @@ const BookContextProvider = (props) => {
             "overview":"lorem ipsum dolor sit",
             "imageURL":"https://i.dr.com.tr/cache/600x600-0/originals/0000000433607-1.jpg",
             "author":"Dostoyevski",
-            "price":30
+            "price":30,
+            "comment": "lorem ıpsum dolor sit"
+
         },
         {
             "id":uuidv4(),
@@ -22,7 +24,9 @@ const BookContextProvider = (props) => {
             "overview":"lorem ipsum dolor sit",
             "imageURL":"https://i.dr.com.tr/cache/500x400-0/originals/0000000222779-1.jpg",
             "author":"Dostoyevski",
-            "price":45
+            "price":45,
+            "comment": "lorem ıpsum dolor sit"
+        
         },
         {
             "id":uuidv4(),
@@ -30,7 +34,8 @@ const BookContextProvider = (props) => {
             "overview":"lorem ipsum dolor sit",
             "imageURL":"https://cdn2.dokuzsoft.com/u/sahafsalih/img/b/s/i/sinekli-bakkalaf3188be33ba2094e8ba8d45d09149d4.jpg",
             "author":"Halide Edip Adıvar",
-            "price":50
+            "price":50,
+            "comment": "lorem ıpsum dolor sit"
         },
         {
             "id":uuidv4(),
@@ -38,7 +43,8 @@ const BookContextProvider = (props) => {
             "overview":"lorem ipsum dolor sit",
             "imageURL":"https://i.dr.com.tr/cache/500x400-0/originals/0000000222779-1.jpg",
             "author":"Dostoyevski",
-            "price":45
+            "price":45,
+            "comment": "lorem ıpsum dolor sit"
         }
        
 
