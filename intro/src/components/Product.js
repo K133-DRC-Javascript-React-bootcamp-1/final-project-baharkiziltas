@@ -31,11 +31,12 @@ export default function Product({ item }) {
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
                 <span class="card__thumb" style={{color:"black", fontSize:"large", fontWeight:"bold"}}>{item.price} TL</span>
                 <div class="card__header-text">
-                  <h3 class="card__title">{item.title}</h3>            
-                  <button onClick={() => addtobasket(item, findBasketItem)} className="btn btn-primary">sepete ekle</button>
+                  <h3 class="card__title">{item.title}</h3>  
+                  <h3 class="card__title">{item.author}</h3>           
+                  <button onClick={() => addtobasket(item, findBasketItem)} className="btn btn-primary">Sepete Ekle</button>
                 </div>
               </div>
-              <p class="card__description">{item.comment}</p>
+              <p class="card__description">{item.overview}</p>
             </div>
           </div>      
         </li>
